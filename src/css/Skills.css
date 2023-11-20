@@ -1,0 +1,81 @@
+ .main h1{
+    margin-left: 100px;
+    text-align: center;
+    margin-top: 200px;
+    font-size: 40px;
+    color: white;
+    color: white;
+    text-shadow: 2px -12px 3px blue;
+    font-family: cursive;
+    
+}
+
+.Skillsimage{
+    display:flex;
+    justify-content: center;
+    margin: 0;
+}
+img{
+    margin: 0;
+}
+.Skillsimage img{
+    margin-top: 190px;
+    margin-right:100px;
+    width: 150px;
+    margin-left: 100px;
+}
+button{
+    background-color:darkblue;
+        padding : 10px 18px;
+        text-decoration: none;
+        font-weight: bold;
+        color:white;
+        display: inline-block;
+        margin: 30px 0;
+        border-radius: 5px;
+}
+.example {
+    position: relative;
+    padding: 0;
+    width: 300px;
+    display: block;
+    cursor: pointer;
+    overflow: hidden;
+  }
+  
+  .content {
+    opacity: 0;
+    font-size: 40px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #1c87c9;
+    background-color: rgba(200, 200, 200, 0.5);
+    width: 300px;
+    height: 300px;
+    -webkit-transition: all 400ms ease-out;
+    -moz-transition: all 400ms ease-out;
+    -o-transition: all 400ms ease-out;
+    -ms-transition: all 400ms ease-out;
+    transition: all 400ms ease-out;
+    text-align: center;
+  }
+  
+  .example .content:hover {
+    opacity: 1;
+  }
+  
+  .example .content .text {
+    height: 0;
+    opacity: 1;
+    transition-delay: 0s;
+    transition-duration: 0.4s;
+  }
+  
+  .example .content:hover .text {
+    opacity: 1;
+    transform: translateY(250px);
+    -webkit-transform: translateY(250px);
+  }
+    
+

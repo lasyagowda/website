@@ -1,0 +1,30 @@
+.About h1{
+    margin-left: 100px;
+    text-align: center;
+    margin-top: 200px;
+    font-size: 40px;
+    color: white;
+    color: white;
+    text-shadow: 2px -12px 3px blue;
+    font-family: cursive;
+}
+.information  p{
+    
+    font-size: large;
+    color: white;
+    margin-top: 100px;
+    font-size: larger;
+}
+   
+    .contain{
+        display: flex;
+    }
+
+
+    @media (max-width:835px) {
+
+        .contain {
+            display: flex;
+            flex-direction: column;
+        }
+    }

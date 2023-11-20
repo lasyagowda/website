@@ -1,0 +1,63 @@
+.project h1 {
+  margin-left: 100px;
+  text-align: center;
+  margin-top: 150px;
+  font-size: 40px;
+  color: white;
+  color: white;
+  text-shadow: 2px -12px 3px blue;
+  font-family: cursive;
+  margin-bottom: 100px;
+}
+.container1 {
+  display: flex;
+  gap: 100px;
+  justify-content: center;
+}
+.project1 h2 {
+  margin-top: 50px;
+  margin-left: 30px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: white;
+}
+.project1 p {
+  margin-top: 15px;
+  margin-left: 10px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+}
+.project2 h2 {
+  color: white;
+  margin-top: 50px;
+  margin-left: 40px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.project2 p{
+    margin-top: 30px;
+    margin-left: 5px;
+    margin-bottom: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+.project3 img{
+    margin-top: 10px;
+}
+.project2{
+    border: solid 5px;
+    margin-top: 50px;
+    margin-left: 20px;
+    border-radius: 50px;
+    color: white;
+    }
+.project1{
+    border: solid 5px;
+    margin-top: 50px;
+    margin-left: 20px;
+    border-radius: 50px;
+    color: white;
+}
+
+
+    
