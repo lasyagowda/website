@@ -8,28 +8,36 @@ function Skills() {
     <>
       <div className="main">
         <h1>SKILLS</h1>
-        <div className="Skillsimage">
-
-  <img src={javascript}alt="javascript"></img>
-  <div class="content">
-    <div class="text">Javascript</div>
-
-</div>
-            
-              <img src={react1}></img>
+        <div className="skill1">
+          <div class="example">
+            <img src={javascript} width="250" height="250" alt="tree" />
+            <div class="content">
+              <div class="text">Javascript</div>
             </div>
           </div>
-          <div className="main">
-        
-        <div className="Skillsimage">
-        
-            <img src={python}></img>
-            <br></br>
-            
-              <img src={git}></img>
+          <div class="example">
+            <img src={react1} width="250" height="250" alt="tree" />
+            <div class="content">
+              <div class="text">React</div>
+            </div>
+          </div> 
+        </div>
+        <div className="skill1">
+          <div class="example">
+            <img src={git} width="250" height="250" alt="tree" />
+            <div class="content">
+              <div class="text">Git</div>
             </div>
           </div>
-          <button>Touch Me</button>
+          <div class="example">
+            <img src={python} width="250" height="250" alt="tree" />
+            <div class="content">
+              <div class="text">Python</div>
+            </div>
+          </div> 
+        </div>
+          </div>
+        
         
       
     </>

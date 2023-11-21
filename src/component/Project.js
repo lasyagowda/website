@@ -1,27 +1,29 @@
 import "../css/Project.css"
-import webdevelopment1 from "../images/webdevelopment1.jpg";
-import phone1 from "../images/phone1.jpg"
+import Ecommerces1 from "../images/Ecommerces1.jpg";
+import brandguideness1 from "../images/brandguideness1.jpg";
+import currency from "../images/currency.webp";
 function Project(){
     return (
         <>
         <div className="project">
             <h1>PROJECT</h1>
             <div className="container1">
-            <div class="project1">
+            <div class="project1 he">
     
-    <h2>WEB DEVELOPMENT</h2>
-    <img src={webdevelopment1}></img>
-    <p> I have developed some web development project using HTML,CSS</p>   
+    <h2>E-COMMERCE</h2>
+    <img src={Ecommerces1}></img>
+    
 </div>
 
-<div className="project2">
-    <h2>MOBILE APPLICATION</h2>
-    <img src={phone1}></img>
-    <p>This is abt are a move away from the integrated software systems...</p>
+<div className="project2 he">
+    <h2>BRAND GUIDENESS</h2>
+    <img src={brandguideness1}></img>
 </div>
-</div>
+    <div className="project3 he">
+    <h2>CURRENCY CONVETER</h2>
+    <img src={currency}></img></div>
         </div>
-        
+        </div>
         </>
   );
 }

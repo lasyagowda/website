@@ -19,21 +19,13 @@ img{
     margin: 0;
 }
 .Skillsimage img{
-    margin-top: 100px;
+    margin-top: 500px;
     margin-right:100px;
     width: 150px;
     margin-left: 100px;
+    margin-bottom: 150px;
 }
-button{
-    background-color:darkblue;
-        padding : 10px 18px;
-        text-decoration: none;
-        font-weight: bold;
-        color:white;
-        display: inline-block;
-        margin: 30px 0;
-        border-radius: 5px;
-}
+
 .example {
     position: relative;
     padding: 0;
@@ -41,6 +33,7 @@ button{
     display: block;
     cursor: pointer;
     overflow: hidden;
+    border-radius: 10px;
   }
   
   .content {
@@ -49,7 +42,7 @@ button{
     position: absolute;
     top: 0;
     left: 0;
-    color: #1c87c9;
+    color:black;
     background-color: rgba(200, 200, 200, 0.5);
     width: 300px;
     height: 300px;
@@ -77,5 +70,13 @@ button{
     transform: translateY(250px);
     -webkit-transform: translateY(250px);
   }
+  .skill1{
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    margin-top: 100px;
+  }
+
+
     
 
