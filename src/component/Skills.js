@@ -3,11 +3,15 @@ import javascript from "../images/javascript.png";
 import react1 from "../images/react1.png";
 import python from "../images/python.jpg";
 import git from "../images/git.png";
+
 function Skills() {
+  
   return (
     <>
       <div className="main">
         <h1>SKILLS</h1>
+
+        
         <div className="skill1">
           <div class="example">
             <img src={javascript} width="250" height="250" alt="tree" />

@@ -56,4 +56,10 @@ box-shadow:  5px 5px 35px blue,
   
   box-shadow: 1px 1px 35px blue, -1px -1px 1px blue;
 }
+@media (max-width:600px){
+  .container1{
+    flex-direction: column;
+    padding-left: 130px;
+  }
+}
 

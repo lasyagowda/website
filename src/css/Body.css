@@ -3,8 +3,9 @@ body{
 }
     .detail{
         margin-left: 8%;
-        margin-top: 15%;
-        float: left;
+        margin: 10%;
+        
+        
     }
     .detail h1{
         font-size: 50px;
@@ -20,6 +21,7 @@ body{
     .detail p{
         color:white;
         line-height: 22px;
+        font-size: 20px;
     }
     .detail a{
         background-color:darkblue;
@@ -32,9 +34,14 @@ body{
         border-radius: 5px;
     }
     .image{
-        margin-top: 100px;
+        margin-top: 150px;
     }
-
+    .body-flex{
+        display: flex;
+    }
+.detail{
+    margin-top: 150px;
+}
     
 
 .dregal1 h3{
@@ -42,8 +49,31 @@ body{
 }
 
 @media (max-width: 600px) {
-    .container {
+    .body-flex {
         display:flex;
       flex-direction: column;
     }
   }
+  @media (prefers-reduced-motion) {
+    .typewriter::after {
+      animation: none;
+    }
+}
+    @keyframes sequencePopup {
+      0%, 100% { content: "Coding"; }
+      25% { content: "learning"; }
+
+      
+    }
+  
+  .typewriter::before {
+    content: "coding";
+    animation: sequencePopup 3s linear infinite;
+  }
+  h3{
+    color: white;
+    font-size: 40px;
+    font-family: cursive;
+  }
+
+
