@@ -8,7 +8,7 @@ function About() {
           <h1>ABOUT</h1>
           <div className="contain">
           <div className="Aboutimage">
-<img src={bit}></img>
+<img src={bit} ></img>
 </div>
 <div className ="information">
 <p>Hiii I am Lasya  D M ,20 years old currently perceiving third year B.E in Computer Science and engineering department,

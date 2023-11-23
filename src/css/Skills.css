@@ -80,7 +80,7 @@ img{
   @media (max-width:600px){
     .skill1{
       flex-direction: column;
-      padding-left: 130px;
+      
     }
   }
 

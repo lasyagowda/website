@@ -6,7 +6,7 @@
       padding: 20px;
       box-shadow:  0px -5px 55px grey;
       bottom: 0;
-      width: 92.5%;
+      width: 97%
     }
   
     .footer p {
@@ -28,3 +28,9 @@
      height: 30px;
      border-radius: 10%;
    }
+   @media (max-width: 600px) {
+    .footer {
+      width: 89%;
+       
+    }
+  }
