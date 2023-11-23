@@ -1,5 +1,5 @@
 .project h1 {
-  margin-left: 100px;
+  margin-left: 50px;
   text-align: center;
   margin-top: 150px;        
   font-size: 40px;
@@ -60,6 +60,7 @@ box-shadow:  5px 5px 35px blue,
   .container1{
     flex-direction: column;
     padding-left: 10px;
+    align-items: center;
   }
 }
 
