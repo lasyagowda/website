@@ -74,13 +74,16 @@ img{
     display: flex;
 
     justify-content: center;
-    gap: 150px;
-    margin-top: 100px;
+    gap: 100px;
+    margin-top: 50px;
   }
   @media (max-width:600px){
     .skill1{
       flex-direction: column;
       padding: 30px;
+      padding-bottom: 5px;
+      padding-top: 5px;
+      gap:30px;
     }
   }
 

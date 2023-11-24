@@ -6,17 +6,16 @@ import Project from "./Project";
 import Contact from "./Contact";
 import Footer from "./Footer";
 
-
 function Home() {
-    return(
-        <>
-        <Body/>
-        <About/>
-        <Skills/>
-        <Project/>
-        <Contact/>
-        <Footer/>
-        </>
-    );
+  return (
+    <>
+      <Body />
+      <About />
+      <Skills />
+      <Project />
+      <Contact />
+      <Footer />
+    </>
+  );
 }
 export default Home;

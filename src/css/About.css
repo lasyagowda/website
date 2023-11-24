@@ -1,35 +1,32 @@
-.About h1{
-    
-    text-align: center;
-    margin-top: 80px;
-    font-size: 40px;
-    color: white;
-    color: white;
-    text-shadow: 2px -12px 3px blue;
-    font-family: cursive;
+.About h1 {
+  text-align: center;
+  margin-top: 80px;
+  font-size: 40px;
+  color: white;
+  color: white;
+  text-shadow: 2px -12px 3px blue;
+  font-family: cursive;
 }
-.information  p{
-    
-    font-size: large;
-    color: white;
-    margin-top: 100px;
-    font-size: larger;
-
+.information p {
+  font-size: large;
+  color: white;
+  margin-top: 100px;
+  font-size: larger;
+  padding: 20px;
 }
-   
-    .contain{
-        display: flex;
-    }
+.contain {
+  display: flex;
+}
 
-
-    @media (max-width:835px) {
-
-        .contain {
-            display: flex;
-            flex-direction: column;
-        }
-        .Aboutimage img{
-            width:180px ;
-        }
-
-    }
+@media (max-width: 835px) {
+  .contain {
+    display: flex;
+    flex-direction: column;
+  }
+  .Aboutimage img {
+    width: 180px;
+  }
+  .information p {
+    text-align: justify;
+  }
+}

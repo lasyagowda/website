@@ -5,13 +5,11 @@ import python from "../images/python.jpg";
 import git from "../images/git.png";
 
 function Skills() {
-  
   return (
     <>
       <div className="main">
         <h1>SKILLS</h1>
 
-        
         <div className="skill1">
           <div class="example">
             <img src={javascript} width="250" height="250" alt="tree" />
@@ -24,7 +22,7 @@ function Skills() {
             <div class="content">
               <div class="text">React</div>
             </div>
-          </div> 
+          </div>
         </div>
         <div className="skill1">
           <div class="example">
@@ -38,12 +36,9 @@ function Skills() {
             <div class="content">
               <div class="text">Python</div>
             </div>
-          </div> 
-        </div>
           </div>
-        
-        
-      
+        </div>
+      </div>
     </>
   );
 }
